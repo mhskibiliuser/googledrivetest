@@ -6,7 +6,7 @@ const logSearches = require('./src/middleware/logSearches');
 const errorHandler = require('./src/middleware/errorHandler');
 
 // Middleware to serve static files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname));
 
 // Middleware to log searches
 app.use(logSearches);

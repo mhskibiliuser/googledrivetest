@@ -1,4 +1,4 @@
-const { addRecentSearch } = require('../database');
+const { addRecentSearch } = require('../../database');
 
 function logSearches(req, res, next) {
     if (req.path === '/api/search' && req.query.query) {

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const combineData = require('../combineData');
-const { addRecentSearch } = require('../database');
+const combineData = require('../../combineData');
+const { addRecentSearch } = require('../../database');
 const { paginate } = require('../utils/pagination');
 
 router.get('/', async (req, res, next) => {
