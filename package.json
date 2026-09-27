@@ -1,0 +1,13 @@
+{
+  "name": "jav-search",
+  "version": "1.0.0",
+  "description": "A JAV search website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
