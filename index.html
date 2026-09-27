@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAV Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JAV Search</h1>
+            <p>Search for JAV content by code or keywords.</p>
+        </header>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Search by code or keywords" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="recentSearches">
+            <h2>Recent Searches</h2>
+            <ul id="recentSearchesList"></ul>
+        </div>
+        <div id="results"></div>
+        <div id="pagination"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
